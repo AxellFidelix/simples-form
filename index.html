@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
     <h2>Exercicio de Formulario</h2>
-    <form action="processar-formulario">
+    <form action="#" method="post">
        
-        <label for="email">E-mail</label>
-        <input type="email"id="email" name="email">
-        <br>
-        <label for="senha">Senha</label>
+        <label for="Informações">Informações</label><br>
+        <input type="text"id="Informações" name="Informações">
+        <br><br>
+        <label for="senha">Senha</label><br>
         <input type="password" name="senha" id="senha">
         <br><br>
+        <label for="E-mail">E-mail</label><br>
+        <input type="text">
+        <br><br>
+        <h5>Selecione suas opções</h5>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">HTML</label>
         <br>
         <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Branca</label>
+        <label for="checkbox">CSS</label>
         <br>
         <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Preta</label>
+        <label for="checkbox">JavaScript</label>
         <br>
         <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Amarela</label>
+        <label for="checkbox">Python</label>
         <br>
         <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Parda</label>
-        <br>
-        <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Albino</label>
+        <label for="checkbox">Php</label>
         <br>
         <br><br>
+        <h5>Selecione a período</h5>
         <input type="radio" name="radio" id="radio">
-        <label for="radio">Masculino</label>
+        <label for="radio">Diurno</label>
         <br>
         <input type="radio" name="radio" id="radio">
-        <label for="radio">Feminino</label>
+        <label for="radio">Noturno</label>
         <br>
         <br><br>
         <input type="submit" name="enviar" id="enviar">
